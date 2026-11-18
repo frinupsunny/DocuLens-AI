@@ -1,0 +1,34 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets
+.env
+*.env.local
+
+# Python cache & artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Vector Store / FAISS indices / local DB caches
+faiss_index/
+*.index
+*.pkl
+
+# Uploaded & Temporary Documents
+uploads/
+temp/
+*.pdf
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

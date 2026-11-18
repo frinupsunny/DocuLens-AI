@@ -1,0 +1,26 @@
+# Core Framework & UI
+streamlit>=1.35.0
+
+# LLM Framework & Integrations
+langchain>=0.2.14
+langchain-community>=0.2.12
+langchain-openai>=0.1.22
+langchain-core>=0.2.33
+openai>=1.40.0
+
+# Vector Store & Embeddings
+sentence-transformers>=3.0.1
+langchain-huggingface>=0.1.0
+faiss-cpu>=1.8.0.post1
+torch>=2.2.0
+
+# PDF & Data Processing
+pypdf>=4.3.0
+pandas>=2.2.0
+numpy>=1.26.0,<2.0.0
+
+# Configuration & Utilities
+python-dotenv>=1.0.1
+
+# Testing
+pytest>=8.2.0
